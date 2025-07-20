@@ -1,0 +1,64 @@
+.ai-container{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 65px;
+}
+
+
+.ai-client form {
+  margin-left: 30%;
+  position: relative;
+  width: 100%;
+  max-width: 600px; 
+}
+ 
+.input-ai {
+  width: 100%;
+  padding: 10px 40px 10px 10px; 
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-ai {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+} 
+
+
+.summary {
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 1rem;
+  text-align: center;
+  overflow-y: scroll;
+  font-family: sans-serif;
+  height: 400px;
+  background-color: #f3f4f6;
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  scrollbar-color: #a0aec0 #edf2f7;
+  scrollbar-width: thin;
+}
+
+.copy-summary{
+   margin-top: 5px;
+   margin-left: 40%;
+   text-align: center;
+    background-color: rgb(202, 235, 202);
+    color: "#fff";
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.copy-summary:hover{
+   background-color: rgb(163, 163, 225);
+}
